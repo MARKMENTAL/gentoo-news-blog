@@ -1,0 +1,60 @@
+{
+  "games": [
+    {
+      "teams": {
+        "team1": "Portland Trail Blazers",
+        "team2": "Minnesota Timberwolves"
+      },
+      "final_score": {
+        "team1": 121,
+        "team2": 149
+      },
+      "stats": {
+        "points": {
+          "team1": 121,
+          "team2": 149
+        },
+        "field_goals": {
+          "team1": "45/83 (54%)",
+          "team2": "61/101 (60%)"
+        },
+        "three_pointers": {
+          "team1": "20/37 (54%)",
+          "team2": "7/10 (70%)"
+        },
+        "free_throws": {
+          "team1": "15/37 (41%)",
+          "team2": "12/16 (75%)"
+        }
+      }
+    },
+    {
+      "teams": {
+        "team1": "Miami Heat",
+        "team2": "Memphis Grizzlies"
+      },
+      "final_score": {
+        "team1": 85,
+        "team2": 145
+      },
+      "stats": {
+        "points": {
+          "team1": 85,
+          "team2": 145
+        },
+        "field_goals": {
+          "team1": "31/89 (35%)",
+          "team2": "55/98 (56%)"
+        },
+        "three_pointers": {
+          "team1": "11/46 (24%)",
+          "team2": "27/54 (50%)"
+        },
+        "free_throws": {
+          "team1": "12/14 (86%)",
+          "team2": "8/8 (100%)"
+        }
+      }
+    }
+  ]
+}

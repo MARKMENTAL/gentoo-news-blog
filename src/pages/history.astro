@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NavbarComponent from '../components/Navbar.astro';
+import FooterComponent from '../components/Footer.astro';
+import HistoryBodyComponent from '../components/HistoryBody.astro';
+---
+
+<Layout title="gentoo-History-blog - History page">
+  <NavbarComponent />
+  <main>
+    <div class="container mt-4">
+      <HistoryBodyComponent/>
+    </div>
+  </main>
+  <div style="margin-top:50vh;">
+    <FooterComponent/>
+  </div>
+</Layout>

@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NavbarComponent from '../components/Navbar.astro';
+import FooterComponent from '../components/Footer.astro';
+import NewsBodyComponent from '../components/NewsBody.astro';
+---
+
+<Layout title="gentoo-news-blog - news page">
+  <NavbarComponent />
+  <main>
+    <div class="container mt-4">
+      <NewsBodyComponent/>
+    </div>
+  </main>
+  <div style="margin-top:50vh;">
+    <FooterComponent/>
+  </div>
+</Layout>
